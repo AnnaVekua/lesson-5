@@ -2,6 +2,10 @@
 	 'Poppins', sans-serif;
 }
 
+a {
+	text-decoration: none;
+}
+
 .header {
 	position: fixed;
 	top: 0;
@@ -54,18 +58,20 @@
 	margin: 0 auto;
 	
 }
+.image-div {
+	position: relative;
+
+}
 .first-block {
 	display: inline-block;
 	width: 360px;
-}
-.image-div {
-	position: relative;
-	display: inline-block;
+	margin-right: 40px;
 }
 
 .second-block {
 	display: inline-block;
 	width: 360px;
+	margin-right: 40px;
 }
 .third-block {
 	display: inline-block;
@@ -73,7 +79,12 @@
 
 }
 .image-text {
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
 	position: absolute;
+	top: 28px;
+	left: 40px;
 }
 .text-lorem {
 	font-size: 13px;
@@ -89,4 +100,23 @@
 }
 .time-logo {
 	display: inline-block;
+}
+.left-block-image {
+	position: relative;
+}
+.left-block-text {
+	position: absolute;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+	transform: translate(50% -50%);
+}
+.left-block {
+	display: inline-block;
+	width: 760px;
+}
+.right-block {
+	display: inline-block;
+	width: 360px;
+
 }
