@@ -1,3 +1,6 @@
+body {
+	background: #F6F8F9;
+}
 .font-family {
 	 'Poppins', sans-serif;
 }
@@ -66,16 +69,19 @@ a {
 	display: inline-block;
 	width: 360px;
 	margin-right: 40px;
+	background: #FFFFFF;
 }
 
 .second-block {
 	display: inline-block;
 	width: 360px;
 	margin-right: 40px;
+	background: #FFFFFF;
 }
 .third-block {
 	display: inline-block;
 	width: 360px;
+	background: #FFFFFF;
 
 }
 .image-text {
@@ -88,12 +94,12 @@ a {
 }
 .text-wraper{
    margin: 66px 40px;
+
 }
 .text-lorem {
 	font-size: 13px;
 	font-weight: regular;
 	color: #A6ADB4;
-
 
 }
 .nexttotime {
@@ -102,28 +108,32 @@ a {
 	color: #A6ADB4;
 	display: inline-block;
 	vertical-align: middle;
+	
 }
 .time-logo {
 	display: inline-block;
+	vertical-align: middle;
+	
 }
 .left-block-image {
 	position: relative;
 	margin-bottom: 40px;
+	z-index: 50;
 }
 .left-block-text {
-	position: absolute;
-    top: 194;
-    right: 172;
-    bottom: 220;
-    left: 488;
 	font-size: 16px;
 	font-weight: bold;
 	color: #FFFFFF;
-	transform: translate(50% 50% -50% -50%);
+	position: absolute;
+    top: 194;
+    left: 488;
 }
+
 .left-block {
 	display: inline-block;
 	width: 760px;
+	margin-right: 40px;
+
 }
 .right-block {
 	display: inline-block;
@@ -135,4 +145,18 @@ a {
 }
 .secondimage {
 	margin-bottom: 102px;
+}
+.secondmain-div {
+	width: 1160px;
+	margin: 0 auto;
+}
+.title {
+	margin-bottom: 40px;
+}
+.time {
+	margin-top: 10px;
+}
+.section1 {
+	margin-top: 85px;
+	margin-bottom: 118px;
 }
