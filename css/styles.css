@@ -86,10 +86,15 @@ a {
 	top: 28px;
 	left: 40px;
 }
+.text-wraper{
+   margin: 66px 40px;
+}
 .text-lorem {
 	font-size: 13px;
 	font-weight: regular;
 	color: #A6ADB4;
+
+
 }
 .nexttotime {
 	font-size: 13px;
@@ -103,13 +108,18 @@ a {
 }
 .left-block-image {
 	position: relative;
+	margin-bottom: 40px;
 }
 .left-block-text {
 	position: absolute;
+    top: 194;
+    right: 172;
+    bottom: 220;
+    left: 488;
 	font-size: 16px;
 	font-weight: bold;
 	color: #FFFFFF;
-	transform: translate(50% -50%);
+	transform: translate(50% 50% -50% -50%);
 }
 .left-block {
 	display: inline-block;
@@ -119,4 +129,10 @@ a {
 	display: inline-block;
 	width: 360px;
 
+}
+.firstimage {
+	margin-bottom: 102px;
+}
+.secondimage {
+	margin-bottom: 102px;
 }
