@@ -1,3 +1,7 @@
+.font-family {
+	 'Poppins', sans-serif;
+}
+
 .header {
 	position: fixed;
 	top: 0;
@@ -13,6 +17,9 @@
 }
 
 .logo {
+	font-size: 13;
+	font-weight: bold;
+	color: #FA6980;
 	vertical-align: middle;
 	margin-left: 20px;
 }
@@ -22,27 +29,38 @@
 	margin-left: 98px;
 }
 .nav-li {
+	font-size: 11px;
+	font-weight: bold;
+	color: #343638;
 	display: inline-block;
 	vertical-align: middle;
+	padding-right: 20px;
 }
 	
+.nav-li-image {
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 48px;
 }
 .title {
+	font-size: 24px;
+	font-weight: bold;
+	color: #202124;
 	margin-top: 80px;
 }
 
 .main-div {
 	width: 1160px;
-	margin: 0auto;
-	position: relative;
-	margin: ;
+	margin: 0 auto;
+	
 }
 .first-block {
 	display: inline-block;
 	width: 360px;
 }
-.image-text {
-	position: absolute;
+.image-div {
+	position: relative;
+	display: inline-block;
 }
 
 .second-block {
@@ -53,4 +71,22 @@
 	display: inline-block;
 	width: 360px;
 
+}
+.image-text {
+	position: absolute;
+}
+.text-lorem {
+	font-size: 13px;
+	font-weight: regular;
+	color: #A6ADB4;
+}
+.nexttotime {
+	font-size: 13px;
+	font-weight: regular;
+	color: #A6ADB4;
+	display: inline-block;
+	vertical-align: middle;
+}
+.time-logo {
+	display: inline-block;
 }
